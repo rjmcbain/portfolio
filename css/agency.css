@@ -270,7 +270,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 #portfolio
@@ -344,6 +344,10 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal {
   padding-right: 0px !important;
+}
+
+.portfolio-modal:hover {
+  opacity: 0.5;
 }
 
 .portfolio-modal .modal-dialog {
