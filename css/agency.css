@@ -188,6 +188,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  max-height: 100vh;
 }
 
 header.masthead .intro-text {
@@ -229,6 +230,11 @@ header.masthead .intro-text .intro-heading {
     line-height: 75px;
     margin-bottom: 50px;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .btn-primary {
+    position: absolute;
+    left: 35%;
+    top: 60%;
   }
 }
 
