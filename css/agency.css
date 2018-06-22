@@ -11,6 +11,11 @@ a {
   color: #fed136;
 }
 
+#modal-link {
+  font-size: 30px;
+  padding-top: 25px;
+}
+
 a:hover {
   color: #fec503;
 }
@@ -212,6 +217,23 @@ header.masthead .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+#devicon {
+  margin-top: 2%;
+  width: 10%;
+  display: inline-block;
+  padding: 10px;
+}
+
+#iconbox {
+  width: 75%;
+  margin: 0 auto;
+  padding-left: 3.5%;
+}
+
+div {
+  display: block;
+}
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 200px;
@@ -231,11 +253,11 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
-  .btn-primary {
+  /* .btn-primary {
     position: absolute;
     left: 35%;
     top: 60%;
-  }
+  } */
 }
 
 .service-heading {
@@ -347,7 +369,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .portfolio-modal .modal-dialog {
@@ -738,20 +760,4 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   background-color: #fed136;
-}
-
-#devicon {
-  margin-top: 2%;
-  width: 10%;
-  display: inline-block;
-  padding: 10px;
-}
-
-#iconbox {
-  width: 75%;
-  margin: 0 auto;
-}
-
-div {
-  display: block;
 }
