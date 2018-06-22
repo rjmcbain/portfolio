@@ -34,6 +34,10 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+center {
+  text-transform: uppercase;
+}
+
 section {
   padding: 100px 0;
 }
@@ -41,12 +45,13 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: -50px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   /* color: white; */
 }
 
 .port {
   margin-top: -50px;
+  margin-bottom: 75px;
   color: white;
 }
 
@@ -188,7 +193,6 @@ header.masthead {
   background-image: url("../img/Rialto-Beach.gif");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -218,16 +222,16 @@ header.masthead .intro-text .intro-heading {
 }
 
 #devicon {
-  margin-top: 2%;
-  width: 10%;
+  margin: 2% 5%;
+  width: 8%;
   display: inline-block;
   padding: 10px;
 }
 
 #iconbox {
-  width: 75%;
-  margin: 0 auto;
-  padding-left: 3.5%;
+  width: 100%;
+  margin-left: 12.5%;
+  /* padding-left: 3.5%; */
 }
 
 div {
