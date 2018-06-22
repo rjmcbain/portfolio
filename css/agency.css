@@ -45,7 +45,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: -50px;
-  /* margin-bottom: 100px; */
+  margin-bottom: 50px;
   /* color: white; */
 }
 
@@ -222,8 +222,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 #devicon {
-  margin: 2% 5%;
-  width: 8%;
+  margin: 2% 4.75%;
+  width: 9%;
   display: inline-block;
   padding: 10px;
 }
@@ -724,6 +724,10 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #212529;
+  color: grey;
+  font-size: 12px;
+  font-weight: 100;
 }
 
 footer span.copyright {
@@ -764,4 +768,8 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+#skills {
+  background-color: #e2e2e2;
 }
