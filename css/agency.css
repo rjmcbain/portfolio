@@ -780,3 +780,35 @@ ul.social-buttons li a:hover {
 #skills {
   background-color: #e2e2e2;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #devicon {
+    /* display: none; */
+    width: 15%;
+    margin: 4%;
+  }
+
+  center {
+    font-size: 6px;
+  }
+
+  #iconbox {
+    margin: 0px;
+    padding: 4px;
+  }
+
+  header.masthead .intro-text .intro-heading {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 80%;
+  }
+  body {
+    width: 100%;
+  }
+  #mainnav {
+    width: 90%;
+  }
+}

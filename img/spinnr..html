@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="apple-mobile-web-app-capable" content="yes">
+
+
+  <title>spinnr.</title>
+  <link rel="shortcut icon" type="image/png" href="http://localhost:3000/public/img/favicon1.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./spinnr._files/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="./spinnr._files/css" rel="stylesheet">
+  <link rel="stylesheet" href="./spinnr._files/font-awesome.min.css">
+  <link href="./spinnr._files/style.css" rel="stylesheet">
+</head>
+
+<!-- BandAid fix for the weird scrolling size-pop I was getting because of the sticky navigation bar up top. -->
+
+<body onload="window.scroll(0, 1)" cz-shortcut-listen="true">
+
+  <div id="navbar2"></div>
+  <div id="navbar" class="sticky">
+    <h4 class="brand">Join our mailing list to get updates about our
+      <img class="kicklogo" src="./spinnr._files/kickstarter-logo-color.png"> and more.</h4>
+    <form id="contactForm" class="resetForm">
+
+      <input placeholder="example@email.com" onfocus="this.placeholder=&#39;&#39;" onblur="this.placeholder=&#39;Thanks for joining our mailing list&#39;" type="email" name="email" id="email" required="">
+
+      <button type="submit" class="submit">Submit</button>
+    </form>
+  </div>
+
+
+  <div class="container">
+
+
+
+    <div class="row head">
+      <div class="title col-lg-12"></div>
+      <div class="description col-lg-12">
+        <div class="translator">
+          <h1>
+            Spinnr is a photo to music translator coming soon to iPhone and Android. Take a photo of an album cover, and listen in Spotify.
+            Try our browser demo below to see it in action.</h1>
+          <a href="http://localhost:3000/demo" class="demoBtn btn btn-primary">Start Demo</a>
+          <h6>You will be prompted to log into Spotify.</h6>
+        </div>
+      </div>
+      <!-- <div class="video col-lg-6">
+      <video id="sampleMovie" src="../public/img/webvideo.mp4" controls></video>
+    </div> -->
+    </div>
+
+
+
+
+
+    <!--   <div class="row demo">
+    <div class="tryitout col-lg-12"></div>
+
+
+
+
+      <div class="instructions col-lg-6">
+        <div class id="olid">
+          <ol>
+            <li> Press "Start The Demo" to begin</li>
+            <li> Log into Spotify if prompted</li>
+            <li> Take a photo of an album cover</li>
+            <li> Enjoy your music </li>
+          </ol>
+        </div>
+
+        <a href="/login" class="btn btn-primary">Start the Demo</a>
+
+      </div>
+
+    <div class="stream col-lg-6">
+      <video autoplay playsinline class="handsome"></video>
+      <canvas id="paint"></canvas>
+      <button class="btn btn-primary" onClick="takePhoto()">SPIN IT</button>
+
+    </div> -->
+
+
+
+
+
+
+    <div class="row social justify-content-center">
+
+      <div class="email col-xs-12 col-md-1">
+        <a href="mailto:spinnrapp@gmail.com">
+          <i class="fa fa-envelope"></i>
+      </a></div><a href="mailto:spinnrapp@gmail.com">
+      </a><div class="facebook col-xs-12 col-md-1"><a href="mailto:spinnrapp@gmail.com">
+        </a><li class="list-inline-item"><a href="mailto:spinnrapp@gmail.com">
+          </a><a href="https://www.facebook.com/spinnrapp/" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+      </div>
+      <div class="twitter col-xs-12 col-md-1">
+        <a href="https://www.twitter.com/spinnrapp/" target="_blank">
+          <i class="fa fa-twitter"></i>
+      </a></div><a href="https://www.twitter.com/spinnrapp/" target="_blank">
+      <!-- <div class="email col-xs-12 col-md-2"><i class="fa fa-envelope"></i></div> -->
+    </a></div><a href="https://www.twitter.com/spinnrapp/" target="_blank">
+    <div class="row footer">
+      <div class="col-xs-12 col-lg-12">Copyright ©2018 Spinnr Inc.
+        <br>All Rights Reserved</div>
+    </div>
+  </a></div><a href="https://www.twitter.com/spinnrapp/" target="_blank">
+
+  <!-- <div class="bg-color">
+  <section class="contact bg-color">
+    <div class="container">
+      <h2>Follow Us!</h2>
+      <ul class="list-inline list-social">
+        <li class="list-inline-item social-twitter">
+          <a href="https://www.twitter.com/spinnrapp/" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item social-facebook">
+          <a href="https://www.facebook.com/spinnrapp/" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li class="list-inline-item social-instagram">
+          <a href="https://www.instagram.com/spinnrapp/" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+        <li class="list-inline-item social-mail">
+          <a href="mailto:spinnrapp@gmail.com">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+ -->
+
+
+  <!-- NAVBAR SCRIPT -->
+
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+
+
+
+
+  <script src="./spinnr._files/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="./spinnr._files/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+  <script src="./spinnr._files/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+  <script src="./spinnr._files/firebase.js"></script>
+  <script src="./spinnr._files/main.js"></script>
+
+
+</a></body></html>
