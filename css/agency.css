@@ -115,6 +115,10 @@ section h3.section-subheading {
   text-shadow: none;
 }
 
+.link{
+  color: white;
+}
+
 img::selection {
   background: transparent;
 }
