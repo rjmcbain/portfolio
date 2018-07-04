@@ -8,7 +8,8 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #fff;
+  text-decoration: none;
 }
 
 #modal-link {
@@ -115,8 +116,9 @@ section h3.section-subheading {
   text-shadow: none;
 }
 
-.link{
+#link{
   color: white;
+  
 }
 
 img::selection {
