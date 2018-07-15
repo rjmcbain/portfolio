@@ -3,11 +3,6 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-ul {
-  text-decoration: none;
-  color: black
-}
-
 p {
   line-height: 1.75;
 }
